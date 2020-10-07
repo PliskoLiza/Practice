@@ -1,0 +1,16 @@
+#Start of input,
+name = input('Input name of receiver ')
+surname = input('Input surname of receiver ')
+number = input('Input telephone number of receiver ')
+street = input('Input street of receiver ')
+house_number = input('Input house number of receiver ')
+flat_number = input('Input flat number of receiver ')
+city = input('Input city of receiver ')
+index = input('Input post code of receiver ')
+country = input('Input country of receiver ')
+#Start of output,
+print(name," ",surname )
+print(number)
+print("Str.",house_number,",ap. ", flat_number, ' ', city)
+print(index)
+print(country)
